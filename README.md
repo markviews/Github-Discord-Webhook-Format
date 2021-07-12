@@ -10,6 +10,7 @@ A server that can receive GitHub webhooks and forward them to discord in a diffe
 
 ### Notes
 * You need to port forward port `2020` or whatever port you change it to
+* If you disable SSL in this script (commenting out lines 7 and 8) also disable SSL in your github webhook settings
 * You can change the name and profile picture of your webhook in discord settings
 * View a full list of stuff you can print out by adding `console.log(json);` to line 18
 * [Discord webhook format](https://discord.com/developers/docs/resources/webhook#edit-webhook-message-jsonform-params)
