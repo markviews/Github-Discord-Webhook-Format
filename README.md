@@ -13,5 +13,6 @@ A server that can receive GitHub webhooks and forward them to discord in a diffe
 * You can change the name and profile picture of your webhook in discord settings
 * View a full list of stuff you can print out by adding `console.log(json);` to line 18
 * [Discord webhook format](https://discord.com/developers/docs/resources/webhook#edit-webhook-message-jsonform-params)
+* [Discord webhook color codes](https://gist.github.com/thomasbnt/b6f455e2c7d743b796917fa3c205f812)
 
 ![](https://i.ibb.co/r4xgkS0/2021-07-12-16-03-26.png)
