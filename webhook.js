@@ -21,6 +21,7 @@ app.post('/git', function (req, res) {
             var args = commit.message.split("\n\n")
             var title = args[0];
             var msg = commit.message.slice(args[0].length + 2);
+            if (msg == "") msg = " ";
 
             axios.post('https://discord.com/api/webhooks/WEBHOOK_LINK_HERE', {
                 embeds: [
